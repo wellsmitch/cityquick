@@ -1,0 +1,35 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{ font-family:"微软雅黑";font-size:16px}
+input,a,button{outline:none;border:none;padding:0}
+.flt{float: left}
+.frt{float: right}
+
+.hello {
+  height: 100vh;
+}
+
+$placeholder: #999999;
+/*placeholder兼容*/
+input::-webkit-input-placeholder {
+  color: $placeholder
+}
+
+/* webkit内核的浏览器 */
+input:-moz-placeholder {
+  color: $placeholder;
+}
+
+/* Firefox版本4-18 */
+input::-moz-placeholder {
+  color: $placeholder
+}
+
+/* Firefox版本19+ */
+input:-ms-input-placeholder {
+  color: $placeholder
+}
